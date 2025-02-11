@@ -1,15 +1,16 @@
 // app/components/ListComponent.tsx
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { useRouter } from 'expo-router';  // Import useRouter from expo-router
+import { useRouter } from 'expo-router';  
 
 const ListComponent = () => {
-  const router = useRouter();  // Initialize the router
+  const router = useRouter();  
 
   const items = [
     { name: 'Apple', route: '/apple' },
     { name: 'Orange', route: '/orange' },
     { name: 'Mango', route: '/mango' },
+    { name: 'Counter', route: '/counter' },
   ];
 
   return (
@@ -18,7 +19,7 @@ const ListComponent = () => {
         <TouchableOpacity
           key={index}
           style={styles.listItem}
-          onPress={() => router.push(item.route)}  // Navigate to the respective fruit page
+          onPress={() => router.push(item.route)}  
         >
           <Text style={styles.itemText}>{item.name}</Text>
         </TouchableOpacity>

@@ -8,7 +8,7 @@ export default ExpoRouter;
 export function App() {
   return (
     <View style={styles.container}>
-      {/* Centered Buttons */}
+      
       <View style={styles.buttonContainer}>
         <TouchableOpacity style={styles.button} onPress={() => console.log("Screen 1 Button Pressed")}>
           <Text style={styles.buttonText}>Screen 1</Text>
@@ -18,7 +18,7 @@ export function App() {
         </TouchableOpacity>
       </View>
 
-      {/* Alert Button at the Bottom */}
+      
       <TouchableOpacity style={styles.alertButton} onPress={() => Alert.alert("Alert", "Alert Button Pressed")}>
         <Text style={styles.buttonText}>Show Alert</Text>
       </TouchableOpacity>

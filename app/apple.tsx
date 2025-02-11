@@ -7,7 +7,7 @@ const Apple = () => {
     <View style={styles.container}>
       <Text style={styles.title}>Apple</Text>
       <Image
-         source={require('../assets/apple.png')}  // Replace with actual image URL
+         source={require('../assets/apple.png')}  
         style={styles.image}
       />
     </View>
