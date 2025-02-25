@@ -13,9 +13,6 @@ export default function Index() {
       
       {/* List of Fruits */}
       <ListComponent />
-      
-      
-  
     </View>
   );
 }

@@ -11,6 +11,7 @@ const ListComponent = () => {
     { name: 'Orange', route: '/orange' },
     { name: 'Mango', route: '/mango' },
     { name: 'Counter', route: '/counter' },
+    { name: 'Lab4', route: '/lab4' },
   ];
 
   return (
